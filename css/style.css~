@@ -1,0 +1,150 @@
+/*
+Name:Rutuja Kiran Gholap
+Intershala Assignment
+*/
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Raleway:wght@500&display=swap');
+body{
+  overflow-x:hidden !important;
+  background-color:#ffffff;
+}
+
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-size:1.5rem;
+  letter-spacing:.3rem;
+}
+
+h1,h2,h3{
+   font-family: 'Domine', serif;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+}
+
+.bg{
+  background-color:black;
+}
+
+.btn {
+  color: #fff !important;
+  background-color: #000;
+  border-color: #000;
+  transition: .1s opacity linear;
+  padding: .5em 1em;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width:992px){
+  .navbar-expand-lg .navbar-nav .nav-link {
+	  padding-right: 1rem !important;
+	  padding-left: 1rem;
+  }
+.head {
+    font-size:2.5rem;
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+@media (max-width:992px){
+  
+  .btn {  
+    width:30%;
+    color: #fff !important;
+    background-color: #000;
+    border-color: #000;
+    transition: .1s opacity linear;
+    padding: .5em .5em;
+  }
+  
+  .head{
+    margin-left:0%;
+    margin-right:0%;
+    font-size:2rem;
+  }
+  
+  .btn1 {  
+    width:40%;
+    color: #fff !important;
+    background-color: #000;
+    border-color: #000;
+    transition: .1s opacity linear;
+    padding: .4em .5em;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .sub1, .sub2{
+    width:80%;
+    font-size:1.1rem !important;  
+    font-family: 'Domine', serif;
+  }
+  .sub11{
+  width:80%;
+  font-size:2rem !important;
+  
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .second{
+    margin-top:5%;
+  }
+  li.nav-item > .btn {
+	  margin-top: 1% !important;
+	 /* padding-left: 1rem;*/
+  }
+} 
+
+.card-title{
+  font-family: 'Domine', serif;
+}
+.centered {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width:80%;
+}
+
+.set1{
+  position: relative;
+  width: 100%;
+  padding: 15px 15px !important;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height:100%;
+  height: auto;
+  padding: 5px 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.set1:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+   font-family: 'Raleway', sans-serif;
+}
